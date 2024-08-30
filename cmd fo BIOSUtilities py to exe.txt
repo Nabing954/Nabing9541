@@ -1,0 +1,8 @@
+pyinstaller --onefile --add-data "BIOSUtilities;BIOSUtilities" "C:\Users\nabin\Desktop\exe\BIOSUtilities\Dell_PFS_Extract.py" 
+fail
+
+pyinstaller --onefile --add-data "common;common" Dell_PFS_Extract.py 
+
+working cmd
+
+pyinstaller --onefile --add-data "common;common" --add-data "AMI_PFAT_Extract.py;." Dell_PFS_Extract.py
